@@ -3,8 +3,8 @@
 # Declare variables to be passed into your templates.
 replicaCount: 1
 image:
-  repository: draft
-  tag: dev
+  repository: 10.0.177.253:5000/bobpaulin/jx-oms-demo
+  tag: 0.0.1
   pullPolicy: IfNotPresent
 service:
   name: jx-oms-demo
